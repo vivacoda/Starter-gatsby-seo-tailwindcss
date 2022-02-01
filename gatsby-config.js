@@ -9,15 +9,15 @@ module.exports = {
     siteUrl: `https://seo-bkk.com/`,
   },
   plugins: [
-    {
-      resolve: "gatsby-plugin-crisp-chat",
-      options: {
-        websiteId: process.env.KEY_CRISP,
-        enableDuringDevelop: true, // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
-        defer: true, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
-        enableImprovedAccessibility: false, // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-crisp-chat",
+    //   options: {
+    //    websiteId: process.env.KEY_CRISP,
+    //     enableDuringDevelop: true, // Optional. Disables Crisp Chat during gatsby develop. Defaults to true.
+    //     defer: true, // Optional. Sets the Crisp loading script to defer instead of async. Defaults to false.
+    //     enableImprovedAccessibility: false, // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
+    //   },
+    //  },
     `gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
@@ -62,14 +62,14 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: "gatsby-plugin-mailchimp",
+    //  {
+    //    resolve: "gatsby-plugin-mailchimp",
 
-      options: {
-        endpoint: process.env.MAILCHIMP_SIGNUP,
-        timeout: 3500,
-      },
-    },
+    //    options: {
+    //       endpoint: process.env.MAILCHIMP_SIGNUP,
+    //       timeout: 3500,
+    //     },
+    //    },
     `gatsby-plugin-sitemap`,
     {
       resolve: "gatsby-plugin-robots-txt",
