@@ -5,5 +5,5 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/styles/global.css"
-require("typeface-inter")
+import "./src/styles/global.css";
+require("typeface-inter");

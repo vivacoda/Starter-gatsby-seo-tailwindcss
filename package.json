@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Starter-gatsby-seo-tailwindcss",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple starter SEO to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Allain Bastien <bastien@vivacoda.com>",
   "dependencies": {
     "@headlessui/react": "^1.4.3",
     "@heroicons/react": "^1.0.5",
@@ -14,7 +14,6 @@
     "dotenv": "^14.0.0",
     "gatsby": "^4.5.2",
     "gatsby-plugin-anchor-links": "^1.2.1",
-    "gatsby-plugin-crisp-chat": "^3.2.2",
     "gatsby-plugin-gatsby-cloud": "^4.5.1",
     "gatsby-plugin-google-gtag": "^4.5.0",
     "gatsby-plugin-image": "^2.5.1",
@@ -33,7 +32,6 @@
     "postcss": "^8.4.5",
     "prop-types": "^15.8.0",
     "react": "^17.0.1",
-    "react-calendly": "^2.2.2",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-hook-form": "^7.24.0",
