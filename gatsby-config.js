@@ -18,7 +18,21 @@ module.exports = {
     //     enableImprovedAccessibility: false, // Optional. Sets aria-label attribute on pop-up icon for screen readers. Defaults to true.
     //   },
     //  },
-    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-google-fonts-v2`,
+      options: {
+        fonts: [
+          {
+            family: "JetBrains Mono",
+            weights: ["100", "400"],
+          },
+          {
+            family: "Roboto Mono",
+            weights: ["100..400"],
+          },
+        ],
+      },
+    }`gatsby-plugin-postcss`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-react-helmet-canonical-urls`,
@@ -40,12 +54,8 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        // Add any options here
-      },
-    },
+    `gatsby-plugin-styled-components`,
+
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
